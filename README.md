@@ -1,8 +1,15 @@
 # Element Forge — Visual DOM and Component Editor
 
-Element Forge is a browser-based visual web editor for building, inspecting, and editing component-driven pages and their real rendered DOM. It combines a drag-and-drop component system with a native DOM element library, a live DOM tree, browser-style element inspection, and HTML/CSS-to-DOM creation.
+Element Forge is a **React-based**, browser-based visual web editor for building, inspecting, and editing component-driven pages and their real rendered DOM. Built with React, TypeScript, and Vite, it combines a drag-and-drop component system with a native DOM element library, a live DOM tree, browser-style element inspection, and HTML/CSS-to-DOM creation.
 
 It is designed for developers, designers, educators, and AI-assisted workflows that need to understand how page structure, styles, components, and rendered browser elements relate to one another.
+
+## Technology stack
+
+- **React** — interactive editor interface and component rendering.
+- **TypeScript** — typed document model, editor state, and DOM inspection logic.
+- **Vite** — fast local development server and production bundling.
+- **Browser DOM APIs** — live DOM inspection, computed styles, dimensions, mutation tracking, and resize tracking.
 
 > Looking for instructions intended for an AI coding agent? Read [`ai-readme.md`](ai-readme.md) first.
 

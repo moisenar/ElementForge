@@ -17,15 +17,14 @@ Use this file for implementation invariants and safe change rules; use the subfo
 
 - Product name: **Element Forge**.
 - Purpose: visual React editor for component trees, native DOM elements, rendered DOM inspection, and HTML/CSS-backed DOM creation.
-- Standalone root: `element-forge/`.
-- Standalone entry: `element-forge/src/main.tsx`.
-- Main implementation: `element-forge/src/editor/Editor.tsx`.
+- Standalone root: repository root (`ElementForge/`).
+- Standalone entry: `src/main.tsx`.
+- Main implementation: `src/editor/Editor.tsx`.
 - The parent site's `src/Site.tsx`, `src/admin/`, `src/assets/`, and `src/component/` are not part of the extracted system.
 
 ## Run and verify
 
 ```powershell
-cd element-forge
 npm install
 npm run dev
 ```
@@ -143,7 +142,7 @@ When modifying this feature:
 - A valid version-1 snapshot is normalized and loaded.
 - Saves use `POST /api/session` when the local Vite middleware is available.
 - Browser `localStorage` remains the fallback.
-- The local save file is `element-forge/session/session.json` and is ignored by Git.
+- The local save file is `session/session.json` and is ignored by Git.
 
 Do not place session data, screenshots, or generated user content in source files.
 
@@ -171,4 +170,4 @@ Do not place session data, screenshots, or generated user content in source file
 
 ## Documentation rule
 
-If an implementation path, module responsibility, URL, session behavior, or feature boundary changes, update this file and the human-facing `README.md` in the same change. Use paths relative to `element-forge/` in this document.
+If an implementation path, module responsibility, URL, session behavior, or feature boundary changes, update this file and the human-facing `README.md` in the same change. Use paths relative to the repository root in this document.

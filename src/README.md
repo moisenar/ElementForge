@@ -7,7 +7,7 @@ This is the standalone source for Element Forge. It contains only the visual pag
 - `main.tsx` starts Element Forge directly and initializes the local session before rendering the editor.
 - `editor/` contains the editor UI, DOM tree, browser-style element inspector, canvas renderer, storage, and styling helpers.
 
-Run the standalone app from `element-forge/` with `npm run dev`, then open `/?editor=true&page=home`.
+Run the standalone app from the repository root with `npm run dev`, then open `/?editor=true&page=home`.
 
 ## Related instructions
 

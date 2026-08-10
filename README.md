@@ -110,7 +110,6 @@ The canvas supports root-level and nested drag-and-drop, selection, moving, dele
 From the repository root:
 
 ```powershell
-cd element-forge
 npm install
 npm run dev
 ```
@@ -126,7 +125,6 @@ The `page` query parameter identifies the page document being edited.
 ### Production build
 
 ```powershell
-cd element-forge
 npm run build
 npm run preview
 ```
@@ -136,7 +134,7 @@ npm run preview
 Element Forge checks for an existing session save when it starts. When the local session endpoint is available, it loads and saves the session at:
 
 ```text
-element-forge/session/session.json
+session/session.json
 ```
 
 The session directory and file are created on first save. Session data includes page documents, resources, reusable components, and the save timestamp. The session file is local user data and should not be committed.
@@ -146,7 +144,7 @@ If the local session endpoint is unavailable, the editor falls back to browser `
 ## Project structure
 
 ```text
-element-forge/
+ElementForge/
 ├── README.md                 Human and SEO/GEO-friendly introduction
 ├── ai-readme.md              AI-oriented implementation guide
 ├── docs/

@@ -3,7 +3,7 @@
 Element Forge is an editor-only React application extracted from the parent Japanese Style project.
 
 ```text
-element-forge/index.html
+index.html
   -> src/main.tsx
   -> src/editor/Editor.tsx
        -> src/editor/storage.ts
@@ -25,7 +25,7 @@ element-forge/index.html
 
 ## Session file
 
-The standalone Vite middleware stores the session at `element-forge/session/session.json`. The session directory and save file are created only when the first save is made. Do not commit that file; it is user data, not source code.
+The standalone Vite middleware stores the session at `session/session.json`. The session directory and save file are created only when the first save is made. Do not commit that file; it is user data, not source code.
 
 ## URL
 

@@ -1,0 +1,7 @@
+node_modules
+dist
+dist-ssr
+*.local
+
+# Local Element Forge user session data
+session/session.json
